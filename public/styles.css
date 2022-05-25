@@ -20,6 +20,9 @@ p{
   display: inline-block;
     margin: 10px;
 }
+img{
+width: 150px;
+}
 
 .out {
   width: 25%;
@@ -43,12 +46,15 @@ p{
 }
 
 .graphic-div {
-  background-color: red;
-  /* background-image:url(); */
+  /* background-color: red; */
+  /* background-image:url(images/Paris.png); */
   width: 100%;
   height: 50%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-div {
@@ -86,7 +92,8 @@ p{
   margin-right: 5%;
   margin-left: 5%;
   border-radius: 50%;
-  /* background-image: url(clock.png); */
+  background-image: url(images/clocksmall.png);
+  background-size: cover;
   justify-content: center;
   align-items: center;
   box-shadow: -14px 14px 28px #090d1b,
