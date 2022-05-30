@@ -3,37 +3,30 @@ body {
   background-color: #143F6B;
   display: flex;
   font-family: 'Roboto Flex', sans-serif;
-    color: White;
+  color: White;
 }
 
-h2{
-font-size: 3rem;
+h2 {
+  font-size: 3rem;
 }
 
-h3{
+h3 {
   font-size: 2.7rem;
   margin: 10px;
 }
 
-p{
+p {
   font-size: 2rem;
   display: inline-block;
-    margin: 10px;
-}
-img{
-width: 150px;
+  margin: 10px;
 }
 
-.out {
-  width: 25%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10% 0;
+img {
+  width: 150px;
 }
 
-.in {
+/* -------------FRAMES------------------ */
+.frame {
   width: 350px;
   height: 600px;
   margin: auto;
@@ -45,9 +38,45 @@ width: 150px;
   flex-wrap: wrap;
 }
 
+.newyork {
+  background-color: yellow;
+}
+
+.paris {
+  background-color: red;
+}
+
+.helsinki {
+  background-color: green;
+}
+
+.tokyo {
+  background-color: pink;
+}
+
+/* ------------- DIVS ------------------ */
+.out {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.in {
+  width: 340px;
+  height: 590px;
+  margin: auto;
+  border-radius: 50px;
+  background: #143F6B;
+  box-shadow: inset 20px 20px 60px #08192b,
+    inset -20px -20px 60px #2065ab;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .graphic-div {
-  /* background-color: red; */
-  /* background-image:url(images/Paris.png); */
   width: 100%;
   height: 50%;
   border-top-left-radius: 50px;
@@ -61,12 +90,12 @@ width: 150px;
   display: flex;
   width: 100%;
   height: 10%;
-  align-items:  center;
+  align-items: center;
   justify-content: center;
 }
 
 .weather-div {
-    display: flex;
+  display: flex;
   width: 50%;
   height: 100%;
   border-bottom-right-radius: 50px;
@@ -75,7 +104,7 @@ width: 150px;
   flex-direction: column;
 }
 
-.help-div{
+.help-div {
   height: 40%;
   width: 100%;
   display: flex;
@@ -84,7 +113,6 @@ width: 150px;
 }
 
 /* ---------------------CLOCK------------------------ */
-
 .clock-div {
   display: flex;
   width: 140px;
@@ -97,19 +125,21 @@ width: 150px;
   justify-content: center;
   align-items: center;
   box-shadow: -14px 14px 28px #090d1b,
-              14px -14px 28px #212d5b;
-
+    14px -14px 28px #212d5b;
 }
+
 /* ------------- TIPS ------------------ */
 .hour, .minute, .second {
   position: absolute;
 }
+
 /* ------------- HOUR TIP ------------------ */
-.hour{
+.hour {
   height: 110px;
   width: 4px;
   border-radius: 6px 6px 0 0;
 }
+
 .hour-in {
   height: 55px;
   width: 4px;
@@ -118,11 +148,12 @@ width: 150px;
 }
 
 /* ------------- MINUTE TIP ------------------ */
-.minute{
+.minute {
   height: 120px;
   width: 3px;
   border-radius: 6px 6px 0 0;
 }
+
 .minute-in {
   height: 60px;
   width: 3px;
@@ -131,16 +162,17 @@ width: 150px;
 }
 
 /* -------------SECOND TIP------------------ */
-.second{
+.second {
   height: 130px;
   width: 2px;
   border-radius: 6px 6px 0 0;
 }
+
 .second-in {
   height: 65px;
   width: 2px;
   border-radius: 6px 6px 0 0;
-      background-color: #F25287;
+  background-color: #F25287;
 }
 
 /* -------------DOT------------------ */
